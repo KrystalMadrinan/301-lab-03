@@ -95,7 +95,7 @@ imgArr.forEach(newHorn => {
 //   $(`.${this.value}`).show();
 // });
 
-hornData.forEach(hornObj => {
+imgArr.forEach(hornObj => {
   imgArr.push(new Builder(hornObj));
 });
 
