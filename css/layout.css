@@ -1,5 +1,5 @@
-body {
-    display: flex;
+header {
+    background-color: aliceblue;
 }
 
 main {
@@ -7,6 +7,11 @@ main {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+}
+
+body {
+    display: flex;
+    background-color: rgb(203, 230, 253);
 }
 
 
@@ -20,8 +25,4 @@ section {
     max-width: 200px;
     margin-left: 20px;
     margin-bottom: 20px;
-}
-
-footer {
-    display: flex;
 }
